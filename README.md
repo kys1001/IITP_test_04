@@ -27,6 +27,10 @@ npm run dev
 
 - `OPENAI_API_KEY`: 서버 측 OpenAI 연동을 사용할 때 설정
 - `GEMINI_API_KEY`: 서버 측 Gemini 연동을 사용할 때 설정
+- `NEXT_PUBLIC_SUPABASE_URL`: Supabase 프로젝트 URL
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`: Supabase publishable key
+
+Supabase 저장소를 사용하려면 [`supabase/schema.sql`](supabase/schema.sql)을 Supabase SQL Editor에서 한 번 실행하세요. 현재는 인증 전 단계라 익명 정책을 사용하며, Supabase 연결 실패 시 브라우저 임시 저장으로 전환합니다.
 
 ## 검증
 
